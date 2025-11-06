@@ -2,4 +2,9 @@
 
  Analyze task dependencies and parallelization opportunities - details TBD
 
-{% include_relative diagram.md %}
+```mermaid
+flowchart TD
+    A[Concurrency Analysis] --> B[TBD]
+
+    click A "https://github.com/mulletware/hack/blob/main/Task_Breakdown/index.md"
+```
